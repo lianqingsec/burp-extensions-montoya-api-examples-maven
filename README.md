@@ -1,6 +1,13 @@
 # Burp Suite Montoya API 示例项目
 
-这是一个使用 Maven 构建的 Burp Suite Montoya API 示例项目集合。该项目包含了 18 个不同的示例扩展，展示了 Burp Suite 扩展开发的各种功能和最佳实践。
+这是一个使用 Maven 构建的 Burp Suite Montoya API 示例项目集合。该项目是基于 [PortSwigger 官方示例项目](https://github.com/PortSwigger/burp-extensions-montoya-api-examples) 进行改写的，主要做了以下改进：
+
+1. 将构建工具从 Gradle 切换为 Maven
+2. 为所有代码示例添加了详细的中文注释
+3. 优化了项目结构和模块组织
+4. 保持了与官方示例相同的功能实现
+
+该项目包含了 18 个不同的示例扩展，展示了 Burp Suite 扩展开发的各种功能和最佳实践。
 
 ## 环境要求
 
