@@ -9,12 +9,15 @@ package xyz.lianqing;
 
 import burp.api.montoya.MontoyaApi;
 import burp.api.montoya.collaborator.Interaction;
+import burp.api.montoya.collaborator.InteractionType;
+import burp.api.montoya.collaborator.SecretKey;
 import burp.api.montoya.http.message.HttpRequestResponse;
 import burp.api.montoya.proxy.ProxyHttpRequestResponse;
 import burp.api.montoya.scanner.audit.issues.AuditIssue;
 import burp.api.montoya.scanner.audit.issues.AuditIssueConfidence;
 import burp.api.montoya.scanner.audit.issues.AuditIssueSeverity;
-import example.collaborator.poller.InteractionHandler;
+import burp.api.montoya.logging.Logging;
+import xyz.lianqing.poller.InteractionHandler;
 
 import java.util.List;
 

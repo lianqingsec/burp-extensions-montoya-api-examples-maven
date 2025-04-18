@@ -12,7 +12,7 @@ import burp.api.montoya.MontoyaApi;
 import burp.api.montoya.collaborator.CollaboratorClient;
 import burp.api.montoya.collaborator.SecretKey;
 import burp.api.montoya.persistence.PersistedObject;
-import example.collaborator.poller.Poller;
+import xyz.lianqing.poller.Poller;
 
 import java.time.Duration;
 

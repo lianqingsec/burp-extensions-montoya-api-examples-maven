@@ -9,6 +9,8 @@ package xyz.lianqing.poller;
 
 import burp.api.montoya.collaborator.CollaboratorClient;
 import burp.api.montoya.collaborator.Interaction;
+import burp.api.montoya.collaborator.SecretKey;
+import burp.api.montoya.logging.Logging;
 
 import java.time.Duration;
 import java.util.ArrayList;
