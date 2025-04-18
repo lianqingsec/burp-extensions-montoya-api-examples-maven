@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>xyz.lianqing</groupId>
+    <artifactId>burp-extensions-montoya-api-examples-maven</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>1-HelloWorld</module>
+        <module>2-HTTPHandlers</module>
+        <module>3-ProxyHandlers</module>
+        <module>4-EventListeners</module>
+        <module>5-TrafficRedirector</module>
+        <module>6-CustomLogger</module>
+        <module>7-CustomRequestEditorTab</module>
+        <module>8-CustomScanInsertionPoints</module>
+        <module>9-CustomScanChecks</module>
+        <module>10-CustomSessionTokens</module>
+        <module>11-IntruderPayloads</module>
+        <module>12-Multi-API</module>
+        <module>13-Persistence</module>
+        <module>14-WebSocketHandlers</module>
+        <module>15-ProxyWebSocketHandlers</module>
+        <module>16-MenuBar</module>
+        <module>17-ContextMenu</module>
+        <module>18-Collaborator</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <java.version>17</java.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+</project>
